@@ -1,0 +1,17 @@
+20:29:00 **** Incremental Build of configuration Debug for project SmartHome ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I/Users/yijin/Documents/Cpp_Projects/IoT_Project/SmartHome/Bsp/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc -o "SmartHome.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yijin/Documents/Cpp_Projects/IoT_Project/SmartHome/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SmartHome.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SmartHome.elf
+ 
+arm-none-eabi-size  SmartHome.elf 
+arm-none-eabi-objdump -h -S SmartHome.elf  > "SmartHome.list"
+   text	   data	    bss	    dec	    hex	filename
+  77312	    288	  21968	  99568	  184f0	SmartHome.elf
+Finished building: default.size.stdout
+ 
+Finished building: SmartHome.list
+ 
+
+20:29:02 Build Finished. 0 errors, 0 warnings. (took 2s.453ms)
+

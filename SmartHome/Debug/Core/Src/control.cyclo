@@ -1,0 +1,9 @@
+../Core/Src/control.c:20:6:Control_Menu	6
+../Core/Src/control.c:38:6:Control_Light	11
+../Core/Src/control.c:68:6:Control_Buzzer_Start	1
+../Core/Src/control.c:74:6:Control_Buzzer_Stop	1
+../Core/Src/control.c:82:6:Control_Buzzer	4
+../Core/Src/control.c:100:6:Control_Date	2
+../Core/Src/control.c:116:6:Control_Alarm	3
+../Core/Src/control.c:131:6:Control_Note	4
+../Core/Src/control.c:150:6:Parse_Message	14

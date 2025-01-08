@@ -1,0 +1,7 @@
+../Core/Src/show.c:19:9:Get_Number_Len	3
+../Core/Src/show.c:34:6:Show_OLED_Light	3
+../Core/Src/show.c:51:6:Show_Environment	14
+../Core/Src/show.c:122:6:Show_Time	25
+../Core/Src/show.c:252:6:Show_Alarm	9
+../Core/Src/show.c:314:6:Show_Note	11
+../Core/Src/show.c:398:6:OLED_Show_Menu	7

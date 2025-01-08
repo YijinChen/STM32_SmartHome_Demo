@@ -1,0 +1,10 @@
+../Core/Src/freertos.c:142:6:MX_FREERTOS_Init	1
+../Core/Src/freertos.c:189:6:StartDefaultTask	10
+../Core/Src/freertos.c:271:6:RecvTask	2
+../Core/Src/freertos.c:310:6:GetTempTask	1
+../Core/Src/freertos.c:332:6:GetLightTask	1
+../Core/Src/freertos.c:354:6:OLED_Show_Task	1
+../Core/Src/freertos.c:358:9:Key_Scan	5
+../Core/Src/freertos.c:384:6:Data_Increase_Callback	1
+../Core/Src/freertos.c:390:6:Buzzer_Callback	1
+../Core/Src/freertos.c:395:6:UploadTask	1

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;mqtt/Bsp/Src/dht11.h&apos;" deleteContents="false" description="Delete resource &apos;mqtt/Bsp/Src/dht11.h&apos;" element1="/mqtt/Bsp/Src/dht11.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1735763908350"/>
+</session>
